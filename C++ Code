@@ -1,0 +1,33 @@
+//CountUp
+
+
+
+
+
+
+
+
+/*Headers*/
+#include <iostream>
+#include <stdio.h>
+#include <windows.h>
+#include <time.h>
+#include <stdlib.h>
+
+using namespace std;
+
+/*Main*/
+
+int main()
+{
+system("title Timer");
+system("color E4");
+int a = 0;
+ohit:
+int b = ++a;
+printf("%d", b);
+printf("\t *Remember 60 seconds is one min.");
+Sleep(1000);
+system("cls");
+goto ohit;
+}
